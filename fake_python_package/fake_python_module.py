@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+fake_python_module - Python fake library for cooks and food lovers.
 """
 
 

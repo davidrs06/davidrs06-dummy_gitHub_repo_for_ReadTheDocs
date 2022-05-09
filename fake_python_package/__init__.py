@@ -1,4 +1,6 @@
-"""__init__.py file with version info"""
+"""
+fake_python_package | A package to test for ReadTheDocs generation and pip install.
+"""
 
 _version_major = 0
 _version_minor = 0
