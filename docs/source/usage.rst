@@ -16,15 +16,15 @@ Creating recipes
 ----------------
 
 To retrieve a list of random ingredients,
-you can use the ``fake_python_module.get_random_ingredients()`` function:
+you can use the ``fake_python_package.fake_python_module.get_random_ingredients()`` function:
 
-.. autofunction:: fake_python_module.get_random_ingredients
+.. autofunction:: fake_python_package.fake_python_module.get_random_ingredients
 
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`fake_python_module.get_random_ingredients`
+or ``"veggies"``. Otherwise, :py:func:`fake_python_package.fake_python_module.get_random_ingredients`
 will raise an exception.
 
-.. autoexception:: fake_python_module.InvalidKindError
+.. autoexception:: fake_python_package.fake_python_module.InvalidKindError
 
 For example:
 
