@@ -1,13 +1,15 @@
 # Configuration file for the Sphinx documentation builder.
 
+from fake_python_package import _version_major, _version_minor, __version__
+
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'The Fake Python Package'
+copyright = '2022, Romascano'
+author = 'Romascano'
 
-release = '0.1'
-version = '0.1.0'
+release = '%d.%d' % (_version_major,_version_minor)
+version = __version__
 
 # -- General configuration
 
