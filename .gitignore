@@ -214,6 +214,10 @@ cmake-build-*/
 # IntelliJ
 out/
 
+# Sphinx
+docs/build_docs.sh
+docs/build/*
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
